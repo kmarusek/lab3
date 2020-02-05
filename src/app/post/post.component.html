@@ -1,0 +1,7 @@
+<div class="section">
+    <div *ngFor='let post of posts' class="container">
+        <h1>{{post.data.title}}</h1>
+        <img [src]="post.data.thumbnail"/>
+        <a class="button" [href]="'https://reddit.com/' + post.data.permalink" target="_blank">Read Now</a>
+    </div>
+</div>

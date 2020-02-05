@@ -1,0 +1,41 @@
+h1 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #080808;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 40%;
+    margin: 0 0 50px;
+    border: 1px solid #000;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+    background-color: #cc0000;
+}
+
+.button {
+    width: 20%;
+    text-decoration: none;
+    padding: 13px 25px;
+    background-color: #000;
+    border: 2px solid #000;
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: #cc0000;
+}
+
+.button:hover {
+    color:#fff;
+    border-color: #fff;
+}
+
+
